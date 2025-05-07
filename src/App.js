@@ -12,12 +12,12 @@ function App() {
 
     return (
         <div style={{ maxWidth: '600px', margin: '50px auto', textAlign: 'center', fontFamily: 'Arial' }}>
-            <div style={{ ...boxStyle, backgroundColor: '#007BFF' }}> {/* 파란 박스 */}
+            <div style={{ ...boxStyle, backgroundColor: '#73ff00' }}> {/* 파란 박스 */}
                 <h1>React 데모</h1>
                 <p>버튼을 누르면 숫자가 올라갑니다.</p>
             </div>
 
-            <div style={{ ...boxStyle, backgroundColor: '#007BFF' }}> {/* 초록 박스 */}
+            <div style={{ ...boxStyle, backgroundColor: '#73ff00' }}> {/* 초록 박스 */}
                 <h2>카운트: {count}</h2>
                 <button
                     onClick={() => setCount(count + 1)}
